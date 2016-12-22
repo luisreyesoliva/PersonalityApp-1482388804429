@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: PersonalityApp
+  host: PersonalityApp
+  disk_quota: 1024M
+  services:
+  - Personality Insights-q7
+  - Tradeoff Analytics-10
